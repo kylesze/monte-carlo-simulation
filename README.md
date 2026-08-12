@@ -38,16 +38,62 @@ mvn compile
 ```bash
 mvn exec:java
 ```
+
+The simulation results are written to `Result.txt` in the project directory.
+
+
 # Usage
 
+1) Upon starting the program, the program will prompt:
+```Bash
+"How many independent random variates would you like to generate for the simulation (Please enter a positive integer)?"
+```
 
+in which the user will enter a positive integer.
 
+  *Note that for the simulation, using larger numbers of independent random variates will help with estimation accuracy; though, be careful to not choose a significantly large number that cannot be simulated on your system.*
 
+2) After defining the number of random variates we want to use in the simulation, the program will ask:
+```Bash
+"What type of distribution would you like to sample (Discrete or Continuous)? "
+```
 
+in which the user will enter discrete or continuous. 
 
+  *Note that the program detects spelling errors; thus, if you do not enter a correctly spelt input, the program will ask you to reenter a valid input.*
 
+3) If the user choses discrete, the program will ask:
+```bash
+"Which discrete distribution would you like to sample from (Poisson, Binomial, Bernoulli, Geometric, Negative Binomial or Hypergeometric)?
+Enter your choice as: poisson, binomial, bernoulli, geometric, negative_binomial, or hypergeometric:"
+```
 
+in which the user will choose a discrete distribution. If the user choses continuous, the program will ask: 
+```bash
+"Which continuous distribution would you like to sample from (Uniform, Normal, Exponential, Lognormal, or Gamma)? 
+Enter your choice as: uniform, normal, exponential, lognormal, or gamma:"
+```
 
+in which the user will choose a continuous distribution. 
+
+4) Once the user chooses their desired distribution, the program will ask the user to enter the necessary parameter values of the chosen distribution. For example:
+```bash
+"Enter the underlying mean of ln(X):"
+"Enter the underlying standard deviation of ln(X):"
+```
+
+5) Once the distribution parameters have been setup, the program will start the simulation. Before the program ends, the program will ask the user the following prompt:
+```bash
+"Do you want to compute the variance or standard deviation [Please type in either: variance, standard_deviation, both or no]? Please enter standard_deviation, variance, both or no. Do you want to compute the variance or standard deviation [Please type in either: variance, standard_deviation, both or no]?"
+```
+
+in which the user can choose whether they want additional statistical information including variance, standard deviation or both. 
+
+*Note that selecting entering `no` will only give the user statistical information on the mean (first moment). Moreover, for the statistical information(s) that are not selected, in the result file, their statistical information will be set to zero.*
+
+6) Finally, once the user has selected the type of statistical information they would like to obtain, the program will write the results to `Result.txt` in the project directory.
+
+ 
 # Examples
 
 # Version History
