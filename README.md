@@ -13,16 +13,40 @@ to approximate statistical information such as the mean, variance, or standard d
 - User defined probability distribution to sample from.
 - Error comparisons between simulated and theoretical values.
 
-## Requirements
-- Java 21
-- Maven
-
-
-
-
 # Installation Guide / Quick Start
 
+### Requirements
+- Java 21
+- Apache Maven
+
+### Installation 
+1) Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/kylesze/monte-carlo-simulation
+cd monte-carlo-simulation
+```
+
+2) After navigating to the project directory, compile the project using Maven:
+
+```bash
+mvn compile
+```
+
+3) Run the program:
+
+```bash
+mvn exec:java
+```
 # Usage
+
+
+
+
+
+
+
+
 
 # Examples
 
