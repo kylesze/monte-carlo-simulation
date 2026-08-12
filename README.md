@@ -60,7 +60,7 @@ in which the user will enter a positive integer.
 
 in which the user will enter discrete or continuous. 
 
-  *Note that the program detects spelling errors; thus, if you do not enter a correctly spelt input, the program will ask you to reenter a valid input.*
+  *Note that the program detects spelling errors, but is not case and space sensetive; thus, if you do not enter a correctly spelt input, the program will ask you to reenter a valid input.*
 
 3) If the user choses discrete, the program will ask:
 ```bash
@@ -94,7 +94,29 @@ in which the user can choose whether they want additional statistical informatio
 6) Finally, once the user has selected the type of statistical information they would like to obtain, the program will write the results to `Result.txt` in the project directory.
 
  
-# Examples
+# Screenshots of the Program Running
+
+### Discrete Example
+<img width="975" height="113" alt="Screenshot 2026-08-12 at 19 24 32" src="https://github.com/user-attachments/assets/4c45ad51-1f21-4437-95c2-3a38502df3d9" />
+
+<img width="1408" height="91" alt="Screenshot 2026-08-12 at 19 26 19" src="https://github.com/user-attachments/assets/84cb3d5d-aed8-4c10-9130-de79533dc981" />
+
+### Results
+
+<img width="757" height="520" alt="Screenshot 2026-08-12 at 19 26 52" src="https://github.com/user-attachments/assets/ce8298db-a477-46f2-9691-577b487a1fde" />
+
+
+### Continuous Example
+
+<img width="897" height="118" alt="Screenshot 2026-08-12 at 19 30 18" src="https://github.com/user-attachments/assets/9d626b39-3b93-437c-ade2-da31aed7c034" />
+
+<img width="1405" height="90" alt="Screenshot 2026-08-12 at 19 32 20" src="https://github.com/user-attachments/assets/86f2b730-9e6b-4431-987c-c3d4103e033a" />
+
+
+### Results
+
+<img width="732" height="525" alt="Screenshot 2026-08-12 at 19 32 49" src="https://github.com/user-attachments/assets/6896ebd1-fada-4bb6-8910-7cbc9a7786e2" />
+
 
 # Version History
 ### V1.2.0
@@ -102,4 +124,7 @@ in which the user can choose whether they want additional statistical informatio
 
 # Acknowledgements
 
+
 # License
+
+
