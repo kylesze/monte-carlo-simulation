@@ -138,13 +138,11 @@ in which the user can choose whether they want additional statistical informatio
 - Fixed bugs related to the discrete and continuous random variate generators.
 - Fixed bugs related to the lognormal sample generator. 
 
-# Acknowledgements / Resources
+# Resources
 - [SSJ](https://umontreal-simul.github.io/ssj/) for random number generation and probability distribution.
 - [Apache Commons Math](https://commons.apache.org/proper/commons-math/) for mathematical and statistical.
 - [Apache Commons RNG](https://commons.apache.org/proper/commons-rng/) for random number generation.
-- [Monte Carlo Video](https://www.youtube.com/watch?v=0zbLv2k17vU) for providing conceptual understanding.
 
 
 # License
-
-
+This program is licensed under the Apache License 2.0.
