@@ -1,6 +1,6 @@
 # Monte Carlo Simulation
 ## Description
-*Monte Carlo Simulation* is an algorithm that helps users estimate the outcomes of uncertain events by computing the mean, variance, 
+*Monte Carlo Simulation* is an algorithm that helps users estimate the outcomes of uncertain events by approximating the mean, variance, 
 and standard deviation in a single run, and evaluating the accuracy of those estimates against analytical solutions. 
 
 ## Framework
