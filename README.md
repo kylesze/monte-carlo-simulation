@@ -139,7 +139,7 @@ in which the user can choose whether to include additional statistical informati
 - Fixed bugs related to the lognormal sample generator. 
 
 # Resources
-- [SSJ](https://umontreal-simul.github.io/ssj/) for random number generation and probability distributions.
+- [SSJ](https://github.com/umontreal-simul/ssj) for random number generation and probability distributions.
 - [Apache Commons Math](https://commons.apache.org/proper/commons-math/javadocs/api-3.6.1/org/apache/commons/math3/distribution/package-summary.html) for probability distributions.
 - [Apache Commons RNG](https://commons.apache.org/proper/commons-rng/) for random number generation.
 
