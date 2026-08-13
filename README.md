@@ -94,7 +94,7 @@ in which the user can choose whether they want additional statistical informatio
 6) Finally, once the user has selected the type of statistical information they would like to obtain, the program will write the results to `Result.txt` in the project directory.
 
  
-# Screenshots of the Program Running
+# Example / Screenshots 
 
 ### Discrete Example
 <img width="975" height="113" alt="Screenshot 2026-08-12 at 19 24 32" src="https://github.com/user-attachments/assets/4c45ad51-1f21-4437-95c2-3a38502df3d9" />
@@ -119,10 +119,30 @@ in which the user can choose whether they want additional statistical informatio
 
 
 # Version History
-### V1.2.0
-- 
 
-# Acknowledgements
+### V1.2.0
+- Stable release.
+- Added theoretical computations to the statistics class.
+- Added error computations.
+- Added Maven command-line execution.
+  
+
+### V1.1.0
+- Fixed bugs related to user input detection in the user interface.
+- Added spelling, spacing, and case-sensitivity features to user input detection.
+- Added output of simulation results to `Result.txt`.
+- Created a new computation class.
+
+### V1.0.0
+- Initial release.
+- Fixed bugs related to the discrete and continuous random variate generators.
+- Fixed bugs related to the lognormal sample generator. 
+
+# Acknowledgements / Resources
+- [SSJ](https://umontreal-simul.github.io/ssj/) for random number generation and probability distribution.
+- [Apache Commons Math](https://commons.apache.org/proper/commons-math/) for mathematical and statistical.
+- [Apache Commons RNG](https://commons.apache.org/proper/commons-rng/) for random number generation.
+- [Monte Carlo Video](https://www.youtube.com/watch?v=0zbLv2k17vU) for providing conceptual understanding.
 
 
 # License
