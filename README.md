@@ -4,13 +4,13 @@
 and standard deviation in a single run, and evaluating the accuracy of those estimates against analytical solutions. 
 
 ## Framework
-The project uses uniform samples and inverse-transform sampling to generate random variates, which are then used in the Monte Carlo Simulation
-to approximate statistical information such as the mean, variance, or standard deviation of the user-defined probability model.
+The project uses uniform samples and inverse-transform sampling to generate random variates, which are then used in the Monte Carlo Simulation 
+to approximate the mean, variance, and standard deviation of the user-defined probability model.
 
 ## Key Features
-- Program includes a total of 11 distributions, including, but not limited to, Poisson distributions, Gamma distributions and Lognormal distributions.
-- User defined number of random variates to simulate.
-- User defined probability distribution to sample from.
+- Program includes a total of 11 distributions, including, but not limited to, Poisson distributions, Gamma distributions, and Lognormal distributions.
+- User-defined number of random variates to simulate.
+- User-defined probability distribution to sample from.
 - Error comparisons between simulated and theoretical values.
 
 # Installation Guide / Quick Start
@@ -51,7 +51,7 @@ The simulation results are written to `Result.txt` in the project directory.
 
 in which the user will enter a positive integer.
 
-  *Note that for the simulation, using larger numbers of independent random variates will help with estimation accuracy; though, be careful to not choose a significantly large number that cannot be simulated on your system.*
+  *Note that for the simulation, using larger numbers of independent random variates will help with estimation accuracy; though, be careful not to choose a significantly large number that cannot be simulated on your system.*
 
 2) After defining the number of random variates we want to use in the simulation, the program will ask:
 ```Bash
@@ -60,7 +60,7 @@ in which the user will enter a positive integer.
 
 in which the user will enter discrete or continuous. 
 
-  *Note that the program detects spelling errors, but is not case and space sensetive; thus, if you do not enter a correctly spelt input, the program will ask you to reenter a valid input.*
+  *Note that the program detects spelling errors, but is not case and space-sensitive; thus, if you do not enter a correctly spelled input, the program will ask you to re-enter a valid input.*
 
 3) If the user choses discrete, the program will ask:
 ```bash
@@ -76,20 +76,20 @@ Enter your choice as: uniform, normal, exponential, lognormal, or gamma:"
 
 in which the user will choose a continuous distribution. 
 
-4) Once the user chooses their desired distribution, the program will ask the user to enter the necessary parameter values of the chosen distribution. For example:
+4) Once the user selects their desired distribution, the program will ask them to enter the necessary parameter values for that distribution. For example:
 ```bash
 "Enter the underlying mean of ln(X):"
 "Enter the underlying standard deviation of ln(X):"
 ```
 
-5) Once the distribution parameters have been setup, the program will start the simulation. Before the program ends, the program will ask the user the following prompt:
+5) Once the distribution parameters have been set up, the program will start the simulation. Before the program ends, it will ask the user the following question:
 ```bash
 "Do you want to compute the variance or standard deviation [Please type in either: variance, standard_deviation, both or no]? Please enter standard_deviation, variance, both or no. Do you want to compute the variance or standard deviation [Please type in either: variance, standard_deviation, both or no]?"
 ```
 
-in which the user can choose whether they want additional statistical information including variance, standard deviation or both. 
+in which the user can choose whether to include additional statistical information, such as variance, standard deviation, or both. 
 
-*Note that selecting entering `no` will only give the user statistical information on the mean (first moment). Moreover, for the statistical information(s) that are not selected, in the result file, their statistical information will be set to zero.*
+*Note that selecting `no` will only give the user statistical information on the mean (first moment). Moreover, for statistical information that is not selected, the corresponding values in the result file will be set to zero.*
 
 6) Finally, once the user has selected the type of statistical information they would like to obtain, the program will write the results to `Result.txt` in the project directory.
 
@@ -140,7 +140,7 @@ in which the user can choose whether they want additional statistical informatio
 
 # Resources
 - [SSJ](https://umontreal-simul.github.io/ssj/) for random number generation and probability distribution.
-- [Apache Commons Math](https://commons.apache.org/proper/commons-math/) for mathematical and statistical.
+- [Apache Commons Math](https://commons.apache.org/proper/commons-math/) for math and statistic classes.
 - [Apache Commons RNG](https://commons.apache.org/proper/commons-rng/) for random number generation.
 
 
