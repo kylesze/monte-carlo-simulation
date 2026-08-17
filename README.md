@@ -5,7 +5,7 @@ and standard deviation in a single run, and evaluating the accuracy of those est
 
 ## Framework
 The project uses uniform samples and inverse-transform sampling to generate random variates, which are then used in the Monte Carlo Simulation 
-to approximate the mean, variance, and standard deviation of the user-defined probability model.
+to approximate the mean, variance, and standard deviation of the user-defined probability distribution.
 
 ## Key Features
 - Program includes a total of 11 distributions, including, but not limited to, Poisson distributions, Gamma distributions, and Lognormal distributions.
